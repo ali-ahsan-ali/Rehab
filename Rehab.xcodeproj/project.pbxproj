@@ -1,0 +1,696 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C886375F2ACA70BA00D4B2BC /* RehabApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886375E2ACA70BA00D4B2BC /* RehabApp.swift */; };
+		C88637612ACA70BA00D4B2BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88637602ACA70BA00D4B2BC /* ContentView.swift */; };
+		C88637632ACA70BC00D4B2BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88637622ACA70BC00D4B2BC /* Assets.xcassets */; };
+		C88637662ACA70BC00D4B2BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88637652ACA70BC00D4B2BC /* Preview Assets.xcassets */; };
+		C88637682ACA70BC00D4B2BC /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88637672ACA70BC00D4B2BC /* Persistence.swift */; };
+		C886376B2ACA70BC00D4B2BC /* Rehab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C88637692ACA70BC00D4B2BC /* Rehab.xcdatamodeld */; };
+		C88637762ACA70BC00D4B2BC /* RehabTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88637752ACA70BC00D4B2BC /* RehabTests.swift */; };
+		C88637802ACA70BC00D4B2BC /* RehabUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886377F2ACA70BC00D4B2BC /* RehabUITests.swift */; };
+		C88637822ACA70BC00D4B2BC /* RehabUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88637812ACA70BC00D4B2BC /* RehabUITestsLaunchTests.swift */; };
+		C886379C2ACA710100D4B2BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C886378E2ACA710100D4B2BC /* Assets.xcassets */; };
+		C886379D2ACA710100D4B2BC /* CalenderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886378F2ACA710100D4B2BC /* CalenderView.swift */; };
+		C886379E2ACA710100D4B2BC /* AddMoodButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88637902ACA710100D4B2BC /* AddMoodButton.swift */; };
+		C886379F2ACA710100D4B2BC /* AddMoodPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88637912ACA710100D4B2BC /* AddMoodPage.swift */; };
+		C88637A02ACA710100D4B2BC /* Controller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88637922ACA710100D4B2BC /* Controller.swift */; };
+		C88637A12ACA710100D4B2BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88637942ACA710100D4B2BC /* Preview Assets.xcassets */; };
+		C88637A22ACA710100D4B2BC /* Rehab.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C88637952ACA710100D4B2BC /* Rehab.xcdatamodeld */; };
+		C88637A42ACA710100D4B2BC /* ElegantCalendar.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C88637982ACA710100D4B2BC /* ElegantCalendar.xcassets */; };
+		C88637A52ACA710100D4B2BC /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C88637992ACA710100D4B2BC /* Color+Extension.swift */; };
+		C88637A72ACA710100D4B2BC /* Mood.swift in Sources */ = {isa = PBXBuildFile; fileRef = C886379B2ACA710100D4B2BC /* Mood.swift */; };
+		C8EDD17C2ACB8C24007A570A /* ElegantCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = C8EDD17B2ACB8C24007A570A /* ElegantCalendar */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C88637722ACA70BC00D4B2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88637532ACA70BA00D4B2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C886375A2ACA70BA00D4B2BC;
+			remoteInfo = Rehab;
+		};
+		C886377C2ACA70BC00D4B2BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C88637532ACA70BA00D4B2BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C886375A2ACA70BA00D4B2BC;
+			remoteInfo = Rehab;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C886375B2ACA70BA00D4B2BC /* Rehab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Rehab.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C886375E2ACA70BA00D4B2BC /* RehabApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehabApp.swift; sourceTree = "<group>"; };
+		C88637602ACA70BA00D4B2BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C88637622ACA70BC00D4B2BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C88637652ACA70BC00D4B2BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C88637672ACA70BC00D4B2BC /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		C886376A2ACA70BC00D4B2BC /* Rehab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rehab.xcdatamodel; sourceTree = "<group>"; };
+		C886376C2ACA70BC00D4B2BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C88637712ACA70BC00D4B2BC /* RehabTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RehabTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C88637752ACA70BC00D4B2BC /* RehabTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehabTests.swift; sourceTree = "<group>"; };
+		C886377B2ACA70BC00D4B2BC /* RehabUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RehabUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C886377F2ACA70BC00D4B2BC /* RehabUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehabUITests.swift; sourceTree = "<group>"; };
+		C88637812ACA70BC00D4B2BC /* RehabUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RehabUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C886378E2ACA710100D4B2BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C886378F2ACA710100D4B2BC /* CalenderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalenderView.swift; sourceTree = "<group>"; };
+		C88637902ACA710100D4B2BC /* AddMoodButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoodButton.swift; sourceTree = "<group>"; };
+		C88637912ACA710100D4B2BC /* AddMoodPage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMoodPage.swift; sourceTree = "<group>"; };
+		C88637922ACA710100D4B2BC /* Controller.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Controller.swift; sourceTree = "<group>"; };
+		C88637942ACA710100D4B2BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		C88637962ACA710100D4B2BC /* Rehab.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Rehab.xcdatamodel; sourceTree = "<group>"; };
+		C88637982ACA710100D4B2BC /* ElegantCalendar.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ElegantCalendar.xcassets; sourceTree = "<group>"; };
+		C88637992ACA710100D4B2BC /* Color+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		C886379B2ACA710100D4B2BC /* Mood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Mood.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C88637582ACA70BA00D4B2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8EDD17C2ACB8C24007A570A /* ElegantCalendar in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C886376E2ACA70BC00D4B2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88637782ACA70BC00D4B2BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C88637522ACA70BA00D4B2BC = {
+			isa = PBXGroup;
+			children = (
+				C886375D2ACA70BA00D4B2BC /* Rehab */,
+				C88637742ACA70BC00D4B2BC /* RehabTests */,
+				C886377E2ACA70BC00D4B2BC /* RehabUITests */,
+				C886375C2ACA70BA00D4B2BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C886375C2ACA70BA00D4B2BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C886375B2ACA70BA00D4B2BC /* Rehab.app */,
+				C88637712ACA70BC00D4B2BC /* RehabTests.xctest */,
+				C886377B2ACA70BC00D4B2BC /* RehabUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C886375D2ACA70BA00D4B2BC /* Rehab */ = {
+			isa = PBXGroup;
+			children = (
+				C88637902ACA710100D4B2BC /* AddMoodButton.swift */,
+				C88637912ACA710100D4B2BC /* AddMoodPage.swift */,
+				C886378E2ACA710100D4B2BC /* Assets.xcassets */,
+				C886378F2ACA710100D4B2BC /* CalenderView.swift */,
+				C88637992ACA710100D4B2BC /* Color+Extension.swift */,
+				C88637922ACA710100D4B2BC /* Controller.swift */,
+				C88637982ACA710100D4B2BC /* ElegantCalendar.xcassets */,
+				C886379B2ACA710100D4B2BC /* Mood.swift */,
+				C88637932ACA710100D4B2BC /* Preview Content */,
+				C88637952ACA710100D4B2BC /* Rehab.xcdatamodeld */,
+				C886375E2ACA70BA00D4B2BC /* RehabApp.swift */,
+				C88637602ACA70BA00D4B2BC /* ContentView.swift */,
+				C88637622ACA70BC00D4B2BC /* Assets.xcassets */,
+				C88637672ACA70BC00D4B2BC /* Persistence.swift */,
+				C886376C2ACA70BC00D4B2BC /* Info.plist */,
+				C88637692ACA70BC00D4B2BC /* Rehab.xcdatamodeld */,
+				C88637642ACA70BC00D4B2BC /* Preview Content */,
+			);
+			path = Rehab;
+			sourceTree = "<group>";
+		};
+		C88637642ACA70BC00D4B2BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C88637652ACA70BC00D4B2BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		C88637742ACA70BC00D4B2BC /* RehabTests */ = {
+			isa = PBXGroup;
+			children = (
+				C88637752ACA70BC00D4B2BC /* RehabTests.swift */,
+			);
+			path = RehabTests;
+			sourceTree = "<group>";
+		};
+		C886377E2ACA70BC00D4B2BC /* RehabUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C886377F2ACA70BC00D4B2BC /* RehabUITests.swift */,
+				C88637812ACA70BC00D4B2BC /* RehabUITestsLaunchTests.swift */,
+			);
+			path = RehabUITests;
+			sourceTree = "<group>";
+		};
+		C88637932ACA710100D4B2BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				C88637942ACA710100D4B2BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C886375A2ACA70BA00D4B2BC /* Rehab */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88637852ACA70BC00D4B2BC /* Build configuration list for PBXNativeTarget "Rehab" */;
+			buildPhases = (
+				C88637572ACA70BA00D4B2BC /* Sources */,
+				C88637582ACA70BA00D4B2BC /* Frameworks */,
+				C88637592ACA70BA00D4B2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Rehab;
+			packageProductDependencies = (
+				C8EDD17B2ACB8C24007A570A /* ElegantCalendar */,
+			);
+			productName = Rehab;
+			productReference = C886375B2ACA70BA00D4B2BC /* Rehab.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C88637702ACA70BC00D4B2BC /* RehabTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C88637882ACA70BC00D4B2BC /* Build configuration list for PBXNativeTarget "RehabTests" */;
+			buildPhases = (
+				C886376D2ACA70BC00D4B2BC /* Sources */,
+				C886376E2ACA70BC00D4B2BC /* Frameworks */,
+				C886376F2ACA70BC00D4B2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C88637732ACA70BC00D4B2BC /* PBXTargetDependency */,
+			);
+			name = RehabTests;
+			productName = RehabTests;
+			productReference = C88637712ACA70BC00D4B2BC /* RehabTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C886377A2ACA70BC00D4B2BC /* RehabUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C886378B2ACA70BC00D4B2BC /* Build configuration list for PBXNativeTarget "RehabUITests" */;
+			buildPhases = (
+				C88637772ACA70BC00D4B2BC /* Sources */,
+				C88637782ACA70BC00D4B2BC /* Frameworks */,
+				C88637792ACA70BC00D4B2BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C886377D2ACA70BC00D4B2BC /* PBXTargetDependency */,
+			);
+			name = RehabUITests;
+			productName = RehabUITests;
+			productReference = C886377B2ACA70BC00D4B2BC /* RehabUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C88637532ACA70BA00D4B2BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					C886375A2ACA70BA00D4B2BC = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					C88637702ACA70BC00D4B2BC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C886375A2ACA70BA00D4B2BC;
+					};
+					C886377A2ACA70BC00D4B2BC = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = C886375A2ACA70BA00D4B2BC;
+					};
+				};
+			};
+			buildConfigurationList = C88637562ACA70BA00D4B2BC /* Build configuration list for PBXProject "Rehab" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C88637522ACA70BA00D4B2BC;
+			packageReferences = (
+				C8EDD17A2ACB8C24007A570A /* XCRemoteSwiftPackageReference "ElegantCalendar" */,
+			);
+			productRefGroup = C886375C2ACA70BA00D4B2BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C886375A2ACA70BA00D4B2BC /* Rehab */,
+				C88637702ACA70BC00D4B2BC /* RehabTests */,
+				C886377A2ACA70BC00D4B2BC /* RehabUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C88637592ACA70BA00D4B2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88637A12ACA710100D4B2BC /* Preview Assets.xcassets in Resources */,
+				C88637662ACA70BC00D4B2BC /* Preview Assets.xcassets in Resources */,
+				C886379C2ACA710100D4B2BC /* Assets.xcassets in Resources */,
+				C88637632ACA70BC00D4B2BC /* Assets.xcassets in Resources */,
+				C88637A42ACA710100D4B2BC /* ElegantCalendar.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C886376F2ACA70BC00D4B2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88637792ACA70BC00D4B2BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C88637572ACA70BA00D4B2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C886376B2ACA70BC00D4B2BC /* Rehab.xcdatamodeld in Sources */,
+				C88637A22ACA710100D4B2BC /* Rehab.xcdatamodeld in Sources */,
+				C88637682ACA70BC00D4B2BC /* Persistence.swift in Sources */,
+				C886379E2ACA710100D4B2BC /* AddMoodButton.swift in Sources */,
+				C886379F2ACA710100D4B2BC /* AddMoodPage.swift in Sources */,
+				C88637A72ACA710100D4B2BC /* Mood.swift in Sources */,
+				C88637612ACA70BA00D4B2BC /* ContentView.swift in Sources */,
+				C886379D2ACA710100D4B2BC /* CalenderView.swift in Sources */,
+				C886375F2ACA70BA00D4B2BC /* RehabApp.swift in Sources */,
+				C88637A52ACA710100D4B2BC /* Color+Extension.swift in Sources */,
+				C88637A02ACA710100D4B2BC /* Controller.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C886376D2ACA70BC00D4B2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88637762ACA70BC00D4B2BC /* RehabTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C88637772ACA70BC00D4B2BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C88637802ACA70BC00D4B2BC /* RehabUITests.swift in Sources */,
+				C88637822ACA70BC00D4B2BC /* RehabUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C88637732ACA70BC00D4B2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C886375A2ACA70BA00D4B2BC /* Rehab */;
+			targetProxy = C88637722ACA70BC00D4B2BC /* PBXContainerItemProxy */;
+		};
+		C886377D2ACA70BC00D4B2BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C886375A2ACA70BA00D4B2BC /* Rehab */;
+			targetProxy = C886377C2ACA70BC00D4B2BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		C88637832ACA70BC00D4B2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C88637842ACA70BC00D4B2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C88637862ACA70BC00D4B2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rehab/Preview Content\"";
+				DEVELOPMENT_TEAM = MD5CW7R5NB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ali.Rehab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C88637872ACA70BC00D4B2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Rehab/Preview Content\"";
+				DEVELOPMENT_TEAM = MD5CW7R5NB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ali.Rehab;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C88637892ACA70BC00D4B2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9DQK6FQ3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ali.RehabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rehab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rehab";
+			};
+			name = Debug;
+		};
+		C886378A2ACA70BC00D4B2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9DQK6FQ3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ali.RehabTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Rehab.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Rehab";
+			};
+			name = Release;
+		};
+		C886378C2ACA70BC00D4B2BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9DQK6FQ3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ali.RehabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rehab;
+			};
+			name = Debug;
+		};
+		C886378D2ACA70BC00D4B2BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = L9DQK6FQ3F;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Ali.RehabUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Rehab;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C88637562ACA70BA00D4B2BC /* Build configuration list for PBXProject "Rehab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88637832ACA70BC00D4B2BC /* Debug */,
+				C88637842ACA70BC00D4B2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88637852ACA70BC00D4B2BC /* Build configuration list for PBXNativeTarget "Rehab" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88637862ACA70BC00D4B2BC /* Debug */,
+				C88637872ACA70BC00D4B2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C88637882ACA70BC00D4B2BC /* Build configuration list for PBXNativeTarget "RehabTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C88637892ACA70BC00D4B2BC /* Debug */,
+				C886378A2ACA70BC00D4B2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C886378B2ACA70BC00D4B2BC /* Build configuration list for PBXNativeTarget "RehabUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C886378C2ACA70BC00D4B2BC /* Debug */,
+				C886378D2ACA70BC00D4B2BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C8EDD17A2ACB8C24007A570A /* XCRemoteSwiftPackageReference "ElegantCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ThasianX/ElegantCalendar";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.3.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C8EDD17B2ACB8C24007A570A /* ElegantCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C8EDD17A2ACB8C24007A570A /* XCRemoteSwiftPackageReference "ElegantCalendar" */;
+			productName = ElegantCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C88637692ACA70BC00D4B2BC /* Rehab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C886376A2ACA70BC00D4B2BC /* Rehab.xcdatamodel */,
+			);
+			currentVersion = C886376A2ACA70BC00D4B2BC /* Rehab.xcdatamodel */;
+			path = Rehab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		C88637952ACA710100D4B2BC /* Rehab.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C88637962ACA710100D4B2BC /* Rehab.xcdatamodel */,
+			);
+			currentVersion = C88637962ACA710100D4B2BC /* Rehab.xcdatamodel */;
+			path = Rehab.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = C88637532ACA70BA00D4B2BC /* Project object */;
+}
